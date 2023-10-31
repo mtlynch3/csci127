@@ -51,7 +51,7 @@ print("Very well, let's see if", user_num, "was the right choice...")
 die_roll = random.randrange(1,7)
 
 print("I have rolled my die... the result is", die_roll)
-print(user_num, "+", die_roll,die_roll+user_num)
+print(user_num, "+", die_roll, "=", die_roll+user_num)
 if die_roll+user_num == 13:
 	print("Lucky 13! You get a treat!")
 	hh()
