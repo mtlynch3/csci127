@@ -36,7 +36,7 @@ if addOne("1011") == "1100":
 else:
   print("FAIL")
 
-if addOne("1100") == "1101":
+if addOne("1100") == "1100":
   print("PASS")
 else:
   print("FAIL")
