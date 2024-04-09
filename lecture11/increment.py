@@ -10,12 +10,12 @@ def addOne(bString):
       dTotal += int(bString[i])*power2
   #increment
   dTotal += 1
-  #convert back to binary
-  newB = ""
+  #convert from decimal to binary
+  newB = "" #will store our result
   while(dTotal > 0):
-    newB+= str(dTotal%2)
+    newB += str(dTotal%2)
     dTotal = dTotal//2
-  #reverse the string because we added the LSD first
+  #reverse the string because we started from LSD
   return(newB[::-1])
 
 
